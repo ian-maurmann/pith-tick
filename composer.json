@@ -1,0 +1,29 @@
+{
+    "name": "pith/tick",
+    "description": "Tick task system for Pith Framework",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-readline": "*",
+        "pith/base": "^0.2.0",
+        "pith/workflow-elements": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pith\\Tick\\": [
+                "src/tick-pack/",
+                "src/tick-pack/tick-task-system/",
+                "src/tick-pack/tick-task-system/tasks/tick/"
+            ]
+        }
+    }
+}
