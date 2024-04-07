@@ -26,7 +26,7 @@ use Pith\Workflow\PithAction;
 
 /**
  * Class TickTaskAction
- * @package Pith\Tic
+ * @package Pith\Tick
  */
 class TickTaskAction extends PithAction
 {
