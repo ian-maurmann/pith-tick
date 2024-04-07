@@ -20,8 +20,9 @@
     "autoload": {
         "psr-4": {
             "Pith\\Tick\\": [
-                "src/tick-task-system/",
-                "src/tick-task-system/tasks/tick/"
+                "src/tick-pack/",
+                "src/tick-pack/tick-task-system/",
+                "src/tick-pack/tick-task-system/tasks/tick/"
             ]
         }
     }
